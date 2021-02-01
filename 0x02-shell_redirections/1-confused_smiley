@@ -1,2 +1,2 @@
 #!/bin/bash
-echo -e "\xC3\x94\x6F"
+echo -e "(\xC3\x94\x6F)"
