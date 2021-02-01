@@ -1,2 +1,2 @@
 #!/bin/bash
-echo -e "(\xC3\x94\x6F)"
+echo -e "\x22\x28\xC3\x94\x6Fx29\x27"
