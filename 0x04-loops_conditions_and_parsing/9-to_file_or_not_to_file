@@ -1,22 +1,18 @@
-
 #!/usr/bin/env bash
-# This script gives information about the
-# "holbertonschool" file.
-FILE=holbertonschool
+#Gives information about a file, such as, if it exists or not
 
-if [ -e $FILE ]; then
-    echo "${FILE} file exists"
 
-    if [ -s $FILE ]; then
-    echo "${FILE} file is not empty"
-    else
-    echo "${FILE} file is empty"
-    fi
-
-    if [ -f $FILE ]; then
-        echo "${FILE} is a regular file"
-    fi
-
+file="holbertonschool"
+if [ -e "$file" ]; then
+   echo "holbertonschool file exists"
+   if [ -s "$file" ]; then
+      echo "holbertonschool file is not empty"
+   else
+      echo "holbertonschool file is empty"
+   fi
+   if [ -f "$file" ]; then
+      echo "holbertonschool is a regular file"
+   fi
 else
-    echo holbertonschool file does not exist
+   echo "holbertonschool file does not exist"
 fi
